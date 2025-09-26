@@ -9,7 +9,7 @@ import { auth } from "./firebase";
 import healthIcon from "./images/health-insurance.png";
 import Navbar from "./Navbar";
 
-function Login(){
+function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [user, setUser] = useState("");
@@ -146,5 +146,4 @@ function Login(){
   );
 }
 
-
-export default Login
+export default Login;
