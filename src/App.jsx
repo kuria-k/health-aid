@@ -23,7 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login setUser={setUser} />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/medinputs" element={<Medsinput />} />
+        <Route path="/medinputs" element={<Medsnput />} />
         <Route path="/medsearch" element={<Medication />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/symptom" element={<Symptom />} />
